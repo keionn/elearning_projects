@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link href="../css/Kluby_css.css"
+		type="text/css" rel="stylesheet" />
+		<Title>Kluby</Title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	 	<meta http-equiv="content-language" content="pl" />
+	</head>
+	<body>
+		<table>
+			<tr>
+			<td><img src="Images/chelsea.jpg" class="large" id="image" onmouseOver="mouseOver()" alt="Chelsea Londyn"/></td>
+				<td class="description">Chelsea Londyn to jeden z najbardziej znanych
+				angielskich zespołów grających w Premier League.</td>
+				<td> Love Love</td>
+			</tr>
+			<tr>
+				<td><img src="Images/manchester.jpg" class="large" id="image" onmouseOver="mouseOver()" alt="Chelsea Londyn"/></td>
+				<td class="description">Junajted to jeden z najbardziej znanych
+				angielskich zespołów grających w Premier League.</td>
+				<td> Love Love</td>
+			<tr>
+				<td><img src="Images/arsenal.jpg" onmouseOver="width=300; height=300" onclick="width=100" alt="Chelsea Londyn"/></td>
+				<td class="description">Arsenal to jeden z najbardziej znanych
+				angielskich zespołów grających w Premier League.</td>
+				<td class="mistrz"> Love Love</td>
+			</tr>
+		</table>
+		<script type='text/javascript'>
+			var large =  document.getElementsByClassName('large');	
+				
+			function mouseOver() {
+			  large.style.height="200px";
+  			  large.style.width="250px";
+				}
+			large.onmouseup = mouseOver;
+		</script>
+	</body>
+</html>

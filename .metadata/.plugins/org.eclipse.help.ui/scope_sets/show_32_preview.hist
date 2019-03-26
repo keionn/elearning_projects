@@ -1,0 +1,4 @@
+#Fri Mar 01 15:16:51 CET 2019
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=show preview

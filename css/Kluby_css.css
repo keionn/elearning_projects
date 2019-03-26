@@ -1,0 +1,42 @@
+
+td.description {
+	min-width: 450px;
+	max-width: 650px;
+	text-align: left;
+	padding: 5px;
+	margin: 0px;
+	overflow: scroll;
+}
+
+td {
+	padding: 15px;
+	border: 2px solid #000000;
+}
+
+table.one {
+	border-spacing: 5px 15px;
+}
+
+table.two {
+	border-collapse: collapse;
+}
+
+img.large {
+	height: 500px;
+	width: 500px;
+}
+
+img.medium {
+	height: 550px;
+	width: 550px;
+}
+img.small{
+	height: 100px;
+	width: 100px;
+}
+
+body {
+	background-image: url("background_images/paski.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}

@@ -1,0 +1,61 @@
+body{
+	background-color: white;
+}
+
+header, div, article {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+.topka {
+	height: 240px;
+	width: 100%;
+	background-image: url("background_images/background-3228704_1920.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.85;
+}
+
+nav li {  	
+	display: inline-flex;
+	margin-top: 180px;
+	margin-right: 40px;
+}
+
+nav li a {
+	font-family: Arial;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover { color:grey }
+
+.glowne {
+	text-align: center;
+	margin-top: 70px;
+	margin-left: 20%;
+	margin-right: 20%;
+	min-width:1000px;
+	max-width:1800px;
+}
+.zawartosc{
+	display:flex;
+	min-height: 340px;
+	width: 100%;
+}
+ul {
+	list-style-type:none;
+}
+
+.lewa {
+	float:left;
+	min-height:33%;
+	margin: 30px 20px 38px 20px;
+	background-image: url("background_images/tlo_oferty.jpg");
+	background-size: 100% 100%;
+
+}
+
